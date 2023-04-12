@@ -40,7 +40,7 @@ class BargeTest {
 
     @Test
     @DisplayName("Test getPositions method")
-    void testGetPositions() {
+    String testGetPositions() {
         Iterator<IPosition> positions = barge.getPositions().iterator();
         assertTrue(positions.hasNext());
         IPosition position = positions.next();
